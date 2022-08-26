@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Carolina Orellana">
+    <!--Link a Estilos-->
+    <link rel="stylesheet" href="./assets/estilos.css">
+    <title>Me gusta</title>
+</head>
+<body>
+        <nav>
+            <h1>Network</h1>
+        </nav>
+        <Header>
+            <h2>Your feed</h2>
+        </Header>
+        <main>
+            <aside>
+                <div class="perfil">
+                    <img src="./assets/user-circle.png" alt="imagen de perfil">
+                    <a href="#">Add an avatar</a>
+                    <h3>James Doe</h3>
+                </div>
+            </aside>
+            <div class="feedAmigos">
+                <article>
+                    <div class="infoArticle">
+                        <h4>Neil M </h4>
+                        <h5> <span>9</span> like(s)</h5>
+                        <button onclick="agregarLike(1)">Like</button>
+                    </div>
+                    <p>I just set up this new discord bot, let me know what you all think. <a href="#">Link</a></p>
+                </article>
+                <article>
+                    <div class="infoArticle">
+                        <h4>Nichole K</h4>
+                        <h5><span>12</span> like(s)</h5>
+                        <button onclick="agregarLike(2)">Like</button>
+                    </div>
+                    <p>Just finished my <a href="#"> next comic</a>, check it out.</p>
+                </article>
+                <article>
+                    <div class="infoArticle">
+                        <h4>Some User</h4>
+                        <h5><span>9</span>like(s)</h5>
+                        <button onclick="agregarLike(3)">Like</button>
+                    </div>
+                    <p>I can't stop listening to the <a href="#"> new album</a>. Who else is liking it?</p>
+                </article>
+            </div>
+        </main>
+        <!--Link JavaScript-->
+    <script src="./assets/script.js"></script>
+</body>
+</html>

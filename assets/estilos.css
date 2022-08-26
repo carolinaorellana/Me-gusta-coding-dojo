@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    padding-inline: 10%;
+    color: lightcoral;
+}
+nav{
+    background-color: lightcoral;
+    color: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0px 0px 10px 10px;
+}
+header{
+    text-align: center;
+    padding: 2rem;
+}
+/* Main contenedor de los tipos de tarjeta*/
+main{
+    display:flex;
+}
+/*Seccion lateral de perfil*/
+aside{
+    flex: 2;
+}
+.perfil{
+    border: solid 2px lightcoral;
+    background-color: rgba(240, 128, 128, 0.164);
+    border-radius: 10px;
+    padding: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.perfil img{
+    width: 40%;
+    margin-bottom: 2rem;
+}
+.perfil a, .perfil a:visited{
+    color: rebeccapurple;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-weight: bolder;
+}
+.perfil h3{
+    font-size: 1.5rem;
+    text-align: center;
+}
+/* */
+.feedAmigos{
+    flex: 3;
+}
+
+article{
+    color: lightcoral;
+    background-color: whitesmoke;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: solid 2px lightcoral;
+    border-radius: 10px;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.infoArticle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.infoArticle button{
+    background-color: lightcoral;
+    border: none;
+    border-radius: 10px;
+    padding-inline: 1rem;
+    padding-block: 0.3rem;
+    color: whitesmoke;
+    box-shadow: 4px 4px lightslategray;
+}
+article a:visited, article a{
+    color:lightseagreen;
+    font-weight: bold;
+}
